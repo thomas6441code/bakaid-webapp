@@ -1,0 +1,103 @@
+#slides {
+    /* Optional: Center the slides */
+    max-width: 100vw;
+    /* Adjust as needed */
+}
+
+.overflow-hidden {
+    height: 85vh;
+    /* Set height to 90% of the viewport height */
+}
+
+.text {
+    font-size: 0.9rem;
+}
+
+#slide-image {
+    object-fit: cover;
+    /* Ensures the image covers the entire area */
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar {
+    transition: transform 0.3s ease;
+}
+
+.loading {
+    display: none;
+}
+
+.loading.show {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .main-content {
+        width: 100vw;
+        margin-left: 0;
+    }
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.main-content {
+    width: 100vw;
+    padding-top: 4rem;
+    margin-left: 0;
+}
+
+.skew-x-12 {
+    transform: skewX(-12deg);
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+@keyframes spinn {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@font-face {
+    font-family: 'Geist Sans';
+    src: url('/fonts/GeistVF.woff') format('woff');
+    font-weight: 100 900;
+    font-style: normal;
+}
+
+:root {
+    --font-geist-sans: 'Geist Sans';
+}
+
+.animate-spinn {
+    animation: spin 3s linear infinite;
+}
+
+.border-3 {
+    border-width: 3.5px;
+}
